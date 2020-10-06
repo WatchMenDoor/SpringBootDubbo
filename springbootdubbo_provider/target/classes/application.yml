@@ -8,9 +8,6 @@ dubbo:
     # 配置服务所使用的协议
     protocol:
       name: dubbo
-      port: 8888
+      port: 8889
   scan:
     base-packages: com.bjsxt.springbootdubbo_provider.service.impl
-    #配置负载均衡策略
-  provider:
-    loadbalance: roundrobin
